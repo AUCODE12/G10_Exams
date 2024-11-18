@@ -1,32 +1,5 @@
 1. 1 o'lchamli massive berilgan. Shu masivedagi eng ko'p qatnashgan elementni
-chiqaruvchi dastur tuzing.
-namespace ConsoleApp1
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.Write("Enter length: ");
-            var length = int.Parse(Console.ReadLine());
-
-            var numbers = GetFilledList(length);
-        }
-        public static List<int> GetFilledList(int length)
-        {
-            var numbers = new List<int>();
-            var elements = 0;
-            for (int i = 0; i < length; i++)
-            {
-                Console.Write($"{i + 1}: ");
-                elements = int.Parse(Console.ReadLine());
-                numbers.Add(elements);
-                
-            }
-            return numbers;
-        }
-    }
-}
-
+chiqaruvchi dastur tuzing. // -
 
 2. s satr berilgan. Shu satrdagi faqat harflarni(english) teskari qilib chiqaring. 
 
